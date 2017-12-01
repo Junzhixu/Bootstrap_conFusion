@@ -13,3 +13,23 @@ $(document).ready(function(){
         }
     });
 });
+
+$('#loginButton').click(function(){
+    $('#loginModal').modal();
+});
+
+$('#reserveButton').click(function(){
+    $('#reserveModal').modal();
+});
+
+$('#reserveClose').click(function(){
+    $('#reserveModal').modal('hide');
+});
+
+$('#loginClose').click(function(){
+    $('#loginModal').modal('hide');
+});
+
+$('#reserveCancel').click(function(){
+    $('#reserveModal').modal('hide');
+});

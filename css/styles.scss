@@ -14,7 +14,7 @@ $carousel-item-height: 300px;
 .row-header{
     @include zero-margin(0px,0px);
 }
- 
+
 .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
@@ -69,4 +69,24 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+#loginClose{
+    color: floralwhite;
+}
+
+#reserveClose{
+    color: floralwhite;
+}
+.modal{
+    .modal-header{
+        background-color: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body{
+        background-color: $background-pale;
+    }
+    .modal-footer{
+        background-color: $background-light;
+    }
 }
